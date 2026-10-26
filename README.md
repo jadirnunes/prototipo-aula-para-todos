@@ -1,15 +1,18 @@
-# Protótipo Aula para Todos — V2
+# Protótipo Aula para Todos — catálogo e páginas de curso
 
-Protótipo HTML estático de referência visual; **não é o site AEM**.
+Versão independente, HTML estático, sem vínculo com o AEM.
 
-## Visualizar
-Abra `index.html` no navegador. Imagens em `assets/`.
+## Publicação no GitHub Pages
 
-## Subir ao GitHub existente sem sobrescrever o AEM
-Crie uma branch de trabalho, envie esta pasta inteira para `prototipos/home-v2/` no repositório `tecnologia-eadtech/aula-para-todos` e abra um Pull Request. Não substitua `index.html` da raiz nem os diretórios `blocks/`, `scripts/`, `styles/` ou `fstab.yaml`.
+Envie o conteúdo deste ZIP diretamente à **raiz** do repositório existente (mesclando a pasta `assets`).
 
-## Publicação
-O protótipo não se transforma automaticamente em página do AEM Edge Delivery Services. GitHub Pages poderá hospedá-lo separadamente, se habilitado e compatível com a política da organização e a visibilidade do repositório. Alternativamente, faça a revisão local.
+- `index.html`: home V2 preservada com links para o catálogo e detalhes dos cursos.
+- `cursos.html`: catálogo navegável com filtros e pesquisa.
+- `curso.html?curso=logistica`: detalhes de Assistente de Logística.
+- `curso.html?curso=administrativo`: detalhes de Auxiliar Administrativo.
+- `curso.html?curso=recepcionista`: detalhes de Atendente / Recepcionista.
+- `assets/`: imagens, logotipos e `cursos.css`.
 
-## Próxima fase
-Recriar o layout no AEM Universal Editor com Hero, Cards e outros blocos, e adaptar CSS do boilerplate conforme necessário. Busca, carrinho e login são demonstrativos.
+Nenhum dado é integrado a LMS, AEM ou sistema de matrícula. Os módulos são **ilustrativos** e precisam ser substituídos por planos de curso reais antes de qualquer publicação produtiva. Botões de ação apenas navegam pelo protótipo.
+
+Inspiração de UX: navegação e apresentação de cursos semelhante às páginas de detalhe de plataformas de ensino, com estrutura original.

@@ -25,3 +25,6 @@ Inspiração de UX: navegação e apresentação de cursos semelhante às págin
 - Botão **Finalizar compra** não processa pagamentos; apresenta aviso de demonstração. Não existe checkout, matrícula ou emissão de certificado.
 
 Para atualizar o GitHub Pages, envie **todos** os arquivos do ZIP, substituindo os arquivos existentes e preservando os caminhos de `assets/`.
+
+### Condições de pagamento demonstrativas
+Na página do curso, R$ 1,00 à vista (desconto de R$ 0,20) ou 12 parcelas de R$ 0,10 sem juros, total parcelado R$ 1,20. Nenhum pagamento real é processado.
